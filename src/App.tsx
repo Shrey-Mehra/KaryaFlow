@@ -60,8 +60,8 @@ function App() {
               {/* <a href="#pricing" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                 Pricing
               </a> */}
-              <a href="#about" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
-                About
+              <a href="#Sign in" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                Sign in
               </a>
               <button
                 onClick={toggleTheme}
@@ -90,8 +90,8 @@ function App() {
                 {/* <a href="#pricing" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                   Pricing
                 </a> */}
-                <a href="#about" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
-                  About
+                <a href="#Sign in" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                  Sign in
                 </a>
                 <button
                   onClick={toggleTheme}
@@ -147,10 +147,10 @@ function App() {
               <div className="flex items-center justify-center lg:justify-start space-x-6 text-sm text-gray-500 dark:text-gray-400">
                 <div className="flex items-center">
                   <Star className="w-4 h-4 text-yellow-400 mr-1" />
-                  <span>4.9/5 rating</span>
+                  {/* <span>4.9/5 rating</span> */}
                 </div>
-                <div>✨ Free 14-day trial</div>
-                <div>🔒 No credit card required</div>
+                {/* <div>✨ Free 14-day trial</div> */}
+                {/* <div>🔒 No credit card required</div> */}
               </div>
             </div>
 
@@ -303,14 +303,14 @@ function App() {
               </ul>
             </div>
             
-            <div>
+            {/* <div>
               <h3 className="font-semibold mb-4">Company</h3>
               <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-white transition-colors">About</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Sign in</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Careers</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Contact</a></li>
               </ul>
-            </div>
+            </div> */}
             
             <div>
               <h3 className="font-semibold mb-4">Support</h3>
