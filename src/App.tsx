@@ -48,7 +48,7 @@ function App() {
                 <Users className="w-5 h-5 text-white" />
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                TeamFlow
+                KaryaFlow
               </span>
             </div>
 
@@ -136,12 +136,12 @@ function App() {
                   </span>
                 </button>
                 
-                <button className="group px-8 py-4 bg-white dark:bg-gray-800 text-gray-900 dark:text-white font-semibold rounded-xl border-2 border-gray-200 dark:border-gray-600 hover:border-blue-500 dark:hover:border-blue-400 transition-all duration-200 shadow-lg hover:shadow-xl">
+                {/* <button className="group px-8 py-4 bg-white dark:bg-gray-800 text-gray-900 dark:text-white font-semibold rounded-xl border-2 border-gray-200 dark:border-gray-600 hover:border-blue-500 dark:hover:border-blue-400 transition-all duration-200 shadow-lg hover:shadow-xl">
                   <span className="flex items-center justify-center">
                     <Play className="w-5 h-5 mr-2" />
                     Watch Demo
                   </span>
-                </button>
+                </button> */}
               </div>
 
               <div className="flex items-center justify-center lg:justify-start space-x-6 text-sm text-gray-500 dark:text-gray-400">
@@ -165,7 +165,7 @@ function App() {
                       <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
                       <div className="w-3 h-3 bg-green-400 rounded-full"></div>
                     </div>
-                    <div className="text-sm font-medium text-gray-500 dark:text-gray-400">TeamFlow Dashboard</div>
+                    <div className="text-sm font-medium text-gray-500 dark:text-gray-400">KaryaFlow Dashboard</div>
                     <Settings className="w-4 h-4 text-gray-400" />
                   </div>
 
@@ -265,7 +265,7 @@ function App() {
             Ready to transform your team's productivity?
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Join thousands of teams already using TeamFlow to achieve their goals faster.
+            Join thousands of teams already using KaryaFlow to achieve their goals faster.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="px-8 py-4 bg-white text-blue-600 font-semibold rounded-xl hover:bg-gray-50 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl">
@@ -287,7 +287,7 @@ function App() {
                 <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
                   <Users className="w-5 h-5 text-white" />
                 </div>
-                <span className="text-xl font-bold">TeamFlow</span>
+                <span className="text-xl font-bold">KaryaFlow</span>
               </div>
               <p className="text-gray-400">
                 Empowering teams to achieve more through seamless collaboration and intelligent task management.
@@ -323,7 +323,7 @@ function App() {
           </div>
           
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 TeamFlow. All rights reserved.</p>
+            <p>&copy; 2025 KaryaFlow. All rights reserved.</p>
           </div>
         </div>
       </footer>
